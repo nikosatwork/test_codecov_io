@@ -223,14 +223,14 @@ public class WeaponTests
     [UnityTest]
     public IEnumerator _18LaserFiresSuccessfully()
     {
-        // ClearScene();
-        // SpaceshipController spaceship = Object.Instantiate(spaceshipPrefab).GetComponent<SpaceshipController>();
-        // spaceship.currentWeapon = SpaceshipController.Weapon.Laser;
-        // spaceship.Shoot();
+        ClearScene();
+        SpaceshipController spaceship = Object.Instantiate(spaceshipPrefab).GetComponent<SpaceshipController>();
+        spaceship.currentWeapon = SpaceshipController.Weapon.Laser;
+        spaceship.Shoot();
 
         yield return null;
 
-        // LaserController laser = Object.FindObjectOfType<LaserController>();
-        // Assert.NotNull(laser);
+        LaserController laser = Object.FindObjectOfType<LaserController>();
+        Assert.NotNull(laser);
     }
 }
