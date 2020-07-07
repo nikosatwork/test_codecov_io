@@ -20,4 +20,4 @@ jobs:
             #- "C:/Projects/GitHub/test_codecov_io/::"
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          file: "Asteroids/CodeCoverage/Asteroids-opencov/Recording/RecordingCoverageResults_*.xml"
+          file: "Asteroids/CodeCoverage/Asteroids-opencov/Recording/RecordingCoverageResults_0000.xml"
