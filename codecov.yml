@@ -13,11 +13,9 @@ coverage:
         # basic
         target: auto
         threshold: 0%
-        base: auto
-        flags:
-          - unit
-        paths:
-          - "src"
+        if_not_found: failure
+    
+          
 
 comment:
   layout: "reach, diff, flags, files"
