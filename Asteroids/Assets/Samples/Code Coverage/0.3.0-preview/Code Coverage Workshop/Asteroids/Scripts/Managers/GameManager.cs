@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
     [HideInInspector]
     public int deaths = 0;
 
-    public const float SPACESHIP_RESPAWN_DELAY = 1.0f;
+    public const float SPACESHIP_RESPAWN_DELAY = 2.0f;
     public const float RELOAD_SCENE_DELAY = 3.0f;
 
     public static bool IsPaused
